@@ -6,9 +6,11 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-        int scoreTotal = 10;
         Scanner clavier = new Scanner(System.in);
+
+        int scoreTotal = 0;
         int nbPartie = 0;
+
         while (scoreTotal != 20) {
             scoreTotal = 0;
             for (int i = 1; i <= 5; i++) {
